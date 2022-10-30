@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
       length: 4,
       child: Scaffold(
           appBar: AppBar(
-            title: const Text('WhatsApp'),
+            title: const Text('WhatsAppFM'),
             actions: [
               const Icon(Icons.search),
               PopupMenuButton(
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
             ]),
           ),
           body: TabBarView(children: [
-             CameraScreen(),
+            CameraScreen(),
             ChatScreen(),
             UserScreen(),
             CallScreen(),
